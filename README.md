@@ -1,68 +1,106 @@
-# 🌟 Alishbah Umar — Personal Portfolio
+# ✨ Alishbah Umar — Personal Portfolio
 
-Welcome to my personal portfolio repository! 🚀
+<div align="center">
 
-This portfolio represents my journey as a **Software Engineering student, UI/UX Designer, and Web Developer**. It showcases my projects, technical skills, certifications, experience, and creative work.
+### Software Engineering Student • UI/UX Designer • Web Developer
 
-## 🌐 Live Portfolio
+Building modern, creative, and user-friendly digital experiences. 🚀
 
-🔗 **Portfolio Website:** Add your live portfolio link here
+<br>
+
+<img src="https://skillicons.dev/icons?i=html,css,js,cpp,java,python,git,github,vscode,figma" />
+
+</div>
 
 ---
 
 ## 👩‍💻 About Me
 
-Hi! I'm **Alishbah Umar**, a passionate Software Engineering student with a strong interest in:
+Hi! I'm **Alishbah Umar**, a passionate **Software Engineering student** with a strong interest in **Web Development, UI/UX Design, Programming, and Artificial Intelligence**.
 
-- 💻 Web Development
-- 🎨 UI/UX Design
-- 📱 Application Development
-- 🤖 Artificial Intelligence
-- 🧠 Problem Solving
-- 🚀 Modern Technologies
-
-I enjoy creating modern, user-friendly, and visually engaging digital experiences while continuously improving my technical and creative skills.
+I enjoy turning ideas into visually engaging, responsive, and user-friendly digital experiences. This portfolio showcases my projects, technical skills, certifications, experience, and creative journey.
 
 ---
 
-## ✨ Portfolio Features
+## 🛠️ Tech Stack
 
-- 🎨 Modern and responsive user interface
-- 📱 Fully responsive design
-- 🌙 Professional visual experience
-- 💼 Project showcase
+<div align="center">
+
+| Category | Technologies |
+|---|---|
+| 🌐 Frontend | HTML5 • CSS3 • JavaScript |
+| 💻 Programming | C++ • Java • Python |
+| 🎨 Design | Figma • Canva • Balsamiq |
+| 🛠️ Tools | Git • GitHub • VS Code |
+| 🤖 Interests | AI • UI/UX • Web Development |
+
+</div>
+
+---
+
+## ✨ Portfolio Highlights
+
+- 🎨 Modern and responsive design
+- 📱 Mobile-friendly interface
+- 💼 Professional project showcase
 - 🎬 Project demo videos
-- 🏆 Certificates gallery
+- 🏆 Certificates and achievements gallery
 - 📄 Downloadable resume
-- 🔗 Social and project links
-- ⚡ Smooth interactions and animations
+- 🌐 Real project links
+- 💻 Software Engineering projects
+- 🎨 UI/UX design projects
+- 🚀 Real client projects
+- ⚡ Interactive JavaScript functionality
 
 ---
 
-## 🛠️ Technologies Used
+## 🚀 Featured Projects
 
-- HTML5
-- CSS3
-- JavaScript
-- Responsive Web Design
-- Git
-- GitHub
+This portfolio showcases work from different areas including:
+
+- 🛒 **Cartify** — E-Commerce UI/UX Design
+- 🌦️ **SkyCast** — Weather Dashboard
+- ✈️ **TravelEase** — Travel Platform
+- 🤖 **AI Chatbot**
+- 🎬 **Cinema Management Systems**
+- 🏥 **Hotel Reservation System**
+- 🚦 **Smart Traffic Light System**
+- 🎓 **Student Management Systems**
+- 🎨 **UI/UX Design Projects**
+- 💼 **Real Client Websites**
+
+And many more projects! 🚀
+
+---
+
+## 🏆 Certifications & Achievements
+
+My portfolio includes certifications in:
+
+- Artificial Intelligence & Prompt Engineering
+- UI/UX Design
+- Java Programming
+- Cybersecurity
+- Google Cloud
+- Claude & AI Tools
+- Freelancing & Professional Development
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-portfolio/
+personal-portfolio/
 │
 ├── assets/
-│   ├── certs/              # Certificates
-│   ├── projects/           # Project images and resources
-│   ├── real-projects/      # Real client projects
+│   ├── certs/                 # Certificates
+│   ├── projects/              # Project images & videos
+│   ├── real-projects/         # Client projects
 │   ├── about-alishba.png
 │   ├── hero-alishba.png
 │   └── Alishba_Umar_Resume.pdf
 │
-├── index.html              # Main website
-├── style.css               # Website styling
-└── script.js               # Website functionality
+├── index.html
+├── style.css
+├── script.js
+└── README.md
