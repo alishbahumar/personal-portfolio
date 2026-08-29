@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="google-site-verification" content="6eNbdSphCd9aAHr0B0IV5jio3WFcJv6o3ofm150xVRo" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alishba Umar — Software Engineer &amp; UI/UX Designer</title>
+<meta name="description" content="Alishba Umar — Software Engineering student specializing in Java, frontend development and UI/UX design. Portfolio of projects, internships and case studies.">
+<meta name="keywords" content="Alishba Umar, Software Engineer, UI/UX Designer, Frontend Developer, Java Developer, Portfolio">
+<meta name="author" content="Alishba Umar">
+<meta property="og:title" content="Alishba Umar — Software Engineer & UI/UX Designer">
+<meta property="og:description" content="Portfolio of Alishba Umar — Java, Frontend Development, UI/UX Design.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Sora:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<noscript><style>[data-reveal]{opacity:1 !important; transform:none !important;} .loader{display:none !important;}</style></noscript>
+</head>
+<body>
+
+<!-- Loading Screen -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-mark">
+    <span class="loader-letter">A</span><span class="loader-letter">U</span>
+  </div>
+  <div class="loader-bar"><span></span></div>
+</div>
+
+<!-- Custom cursor glow (decorative) -->
+<div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo" aria-label="Alishba Umar — home">
+      <span class="logo-mark">AU</span>
+      <span class="logo-text">Alishba<em>.</em>Umar</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active-link"><span class="nl-num">00</span>Home</a>
+      <a href="#about" class="nav-link"><span class="nl-num">01</span>About</a>
+      <a href="#services" class="nav-link"><span class="nl-num">02</span>Services</a>
+      <a href="#skills" class="nav-link"><span class="nl-num">03</span>Skills</a>
+      <a href="#experience" class="nav-link"><span class="nl-num">04</span>Experience</a>
+      <a href="#projects" class="nav-link"><span class="nl-num">05</span>Projects</a>
+      <a href="#real-projects" class="nav-link"><span class="nl-num">•</span>Real Projects</a>
+      <a href="#certificates" class="nav-link"><span class="nl-num">06</span>Certs</a>
+      <a href="#recognition" class="nav-link"><span class="nl-num">07</span>Awards</a>
+      <a href="#contact" class="nav-link"><span class="nl-num">08</span>Contact</a>
+      <div class="nav-mobile-actions">
+        <a href="mailto:hafizaalishba.umar@gmail.com" class="btn btn-small btn-primary">Say hello</a>
+        <a href="assets/Alishba_Umar_Resume.pdf" download class="btn btn-small btn-ghost">Download CV</a>
+      </div>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light mode" aria-pressed="false">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5Z"/></svg>
+      </button>
+      <a href="mailto:hafizaalishba.umar@gmail.com" class="btn btn-small btn-primary nav-cta">Say hello</a>
+      <a href="assets/Alishba_Umar_Resume.pdf" download class="btn btn-small btn-ghost nav-cv">Download CV</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-grid"></div>
+      <div class="hero-orb orb-1"></div>
+      <div class="hero-orb orb-2"></div>
+    </div>
+
+    <div class="hero-inner">
+      <div class="hero-copy" data-reveal>
+        <p class="eyebrow"><span class="eyebrow-dot"></span>Available for internships &amp; entry-level roles</p>
+        <h1 class="hero-title">
+          Building software<br>
+          &amp; designing the <span class="hero-title-alt" id="roleSwitch">interfaces</span><br>
+          people trust.
+        </h1>
+        <p class="hero-sub">I'm <strong>Alishba Umar</strong>, a Software Engineering student in Rawalpindi working at the intersection of Java development, frontend engineering and UI/UX design — currently shipping across eight concurrent internships while finishing my degree.</p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            View my work
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="assets/Alishba_Umar_Resume.pdf" download class="btn btn-ghost">
+            Download CV
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 19h16"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-ghost">Let's talk</a>
+          <a href="https://www.linkedin.com/in/alishba-umar-8914bb373" target="_blank" rel="noopener" class="btn btn-linkedin">
+            <svg width="16" height="16" viewBox="0 0 448 512" fill="currentColor"><path d="M100.28 448H7.4V148.9h92.88zm-46.44-338C24.09 110 0 85.91 0 56.24a53.79 53.79 0 1 1 107.58 0c0 29.67-24.13 53.76-53.74 53.76zM447.9 448h-92.68V302.4c0-34.7-.7-79.34-48.29-79.34-48.29 0-55.7 37.21-55.7 75.68V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.28 61.9 111.28 142.3z"/></svg>
+            LinkedIn Profile
+          </a>
+          <a href="https://github.com/alishbahumar" target="_blank" rel="noopener" class="btn btn-github">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.06 11.06 0 0 1 5.79 0c2.2-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.43-2.7 5.41-5.26 5.69.41.36.78 1.06.78 2.15 0 1.55-.01 2.8-.01 3.18 0 .31.21.67.8.56A10.52 10.52 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+            GitHub Profile
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="hero-stat-num" data-count="8">8</span>
+            <span class="hero-stat-label">Active internships</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-num" data-count="15">15</span>
+            <span class="hero-stat-label">Projects shipped</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-num" data-count="5">5</span>
+            <span class="hero-stat-label">Years teaching online</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-reveal>
+        <div class="hero-frame">
+          <img src="assets/hero-alishba.png" alt="Portrait of Alishba Umar" class="hero-photo" width="640" height="640">
+          <div class="hero-frame-glow"></div>
+        </div>
+        <div class="floating-card card-role">
+          <span class="fc-dot"></span>
+          <span id="roleChip">Frontend Developer</span>
+        </div>
+        <div class="floating-card card-location">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-7.58 7-12.5A7 7 0 0 0 5 9.5C5 14.42 12 22 12 22Z"/><circle cx="12" cy="9.5" r="2.3"/></svg>
+          <span>Rawalpindi, Pakistan</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to content">
+      <span>Scroll</span>
+      <span class="scroll-line"></span>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-inner about-grid">
+      <div class="about-media" data-reveal>
+        <div class="about-photo-frame">
+          <img src="assets/about-alishba.png" alt="Alishba Umar" class="about-photo" width="560" height="560">
+        </div>
+        <div class="about-badge">
+          <strong>Hafiza-e-Quran</strong>
+          <span>Certified · 5+ yrs teaching</span>
+        </div>
+      </div>
+
+      <div class="about-copy">
+        <p class="section-eyebrow" data-reveal>01 — About</p>
+        <h2 class="section-title" data-reveal>Two disciplines, <br>one way of thinking.</h2>
+
+        <div class="about-text" data-reveal>
+          <p>My technical foundation includes Java, C++, Python, Object-Oriented Programming, Data Structures &amp; Algorithms, Database Systems, Frontend Development, and UI/UX Design using Figma and Balsamiq. I enjoy every stage of the software development lifecycle — from understanding requirements and designing intuitive interfaces to writing clean, maintainable code.</p>
+          <p>Alongside my studies at Riphah International University, I've gained hands-on experience through internships spanning software development and UI/UX, collaborating on real applications and strengthening how I solve problems in a team.</p>
+          <p>I also bring <strong>5+ years of experience as an Online Quran Tutor</strong>, teaching students across the UK, USA, Canada and Australia — often 10+ at once. It's where I actually learned to communicate clearly, lead patiently, and manage my time across very different people and time zones. Those habits show up in every sprint I run today.</p>
+        </div>
+
+        <ul class="about-facts" data-reveal>
+          <li>
+            <span class="fact-label">Education</span>
+            <span class="fact-value">BS Software Engineering, Riphah International University — 2024–Present</span>
+          </li>
+          <li>
+            <span class="fact-label">Focus</span>
+            <span class="fact-value">Java · Frontend Development · UI/UX Design</span>
+          </li>
+          <li>
+            <span class="fact-label">Currently</span>
+            <span class="fact-value">Open to Software Engineering, Frontend &amp; UI/UX internships</span>
+          </li>
+          <li>
+            <span class="fact-label">Based in</span>
+            <span class="fact-value">Rawalpindi, Punjab, Pakistan</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="section-inner">
+      <p class="section-eyebrow" data-reveal>02 — Services</p>
+      <h2 class="section-title" data-reveal>What I can do for your team.</h2>
+      <p class="section-lede" data-reveal>Nine areas I actively work in right now, across seven internships and my own projects.</p>
+
+      <div class="services-grid">
+        <div class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m9 8-4 4 4 4M15 8l4 4-4 4M13 5l-2 14"/></svg>
+          </div>
+          <h3>Software Development</h3>
+          <p>Designing and building efficient, scalable, user-focused software using modern engineering principles.</p>
+        </div>
+        <div class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4.5" width="18" height="15" rx="2"/><path d="M3 8.5h18M6.5 6.5h.01M9 6.5h.01"/></svg>
+          </div>
+          <h3>Frontend Development</h3>
+          <p>Building responsive, interactive, modern web interfaces with clean, user-friendly design.</p>
+        </div>
+        <div class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg>
+          </div>
+          <h3>Mobile Application Development</h3>
+          <p>Building and prototyping mobile app interfaces and features, translating designs into functional, user-ready screens.</p>
+        </div>
+        <div class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M9 7h6M9 11h6M9 15h3"/></svg>
+          </div>
+          <h3>Java Development</h3>
+          <p>Developing object-oriented desktop and web applications following OOP principles and clean code practice.</p>
+        </div>
+        <div class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="m7 9 3 3-3 3M13 15h4"/></svg>
+          </div>
+          <h3>Python Development</h3>
+          <p>Creating automation scripts and problem-solving applications with clean, maintainable code.</p>
+        </div>
+        <div class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 19c-3-1.5-7-4.5-7-9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 4.5-4 7.5-7 9l-2 1-2-1Z"/></svg>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>Designing intuitive, visually appealing interfaces in Figma — from wireframes to high-fidelity prototypes.</p>
+        </div>
+        <div class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m20 20-4.4-4.4"/></svg>
+          </div>
+          <h3>UX Research</h3>
+          <p>Conducting user research and analysis to build design solutions that genuinely improve usability.</p>
+        </div>
+        <div class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="12" cy="5.5" rx="7" ry="2.5"/><path d="M5 5.5V18c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5V5.5M5 12c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5"/></svg>
+          </div>
+          <h3>Database Development</h3>
+          <p>Designing relational databases with efficient structures, SQL queries and optimized solutions.</p>
+        </div>
+        <div class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 5.5c2-1 5-1.5 8 0 3-1.5 6-1 8 0v13c-2-1-5-1.5-8 0-3-1.5-6-1-8 0v-13Z"/><path d="M12 5.5v13"/></svg>
+          </div>
+          <h3>Online Quran Tutoring</h3>
+          <p>Teaching the Holy Quran with Tajweed to international students — personalized, engaging lessons.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-alt" id="skills">
+    <div class="section-inner">
+      <p class="section-eyebrow" data-reveal>03 — Skills</p>
+      <h2 class="section-title" data-reveal>What I build with.</h2>
+      <p class="section-lede" data-reveal>A working toolkit shaped by code, design tools and databases — kept sharp across seven internships at once.</p>
+
+      <div class="skills-grid">
+        <div class="skill-card" data-reveal>
+          <h3 class="skill-cat-title">Programming</h3>
+          <div class="skill-bar" data-percent="88" style="--pct:88%">
+            <div class="skill-bar-top"><span>Java (OOP)</span><span class="skill-pct">88%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-percent="80" style="--pct:80%">
+            <div class="skill-bar-top"><span>C++</span><span class="skill-pct">80%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-percent="75" style="--pct:75%">
+            <div class="skill-bar-top"><span>Python</span><span class="skill-pct">75%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-reveal>
+          <h3 class="skill-cat-title">Frontend</h3>
+          <div class="skill-bar" data-percent="90" style="--pct:90%">
+            <div class="skill-bar-top"><span>HTML &amp; CSS</span><span class="skill-pct">90%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-percent="82" style="--pct:82%">
+            <div class="skill-bar-top"><span>JavaScript</span><span class="skill-pct">82%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-percent="78" style="--pct:78%">
+            <div class="skill-bar-top"><span>Responsive &amp; REST APIs</span><span class="skill-pct">78%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-reveal>
+          <h3 class="skill-cat-title">UI / UX Design</h3>
+          <div class="skill-bar" data-percent="92" style="--pct:92%">
+            <div class="skill-bar-top"><span>Figma</span><span class="skill-pct">92%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-percent="85" style="--pct:85%">
+            <div class="skill-bar-top"><span>Wireframing &amp; Prototyping</span><span class="skill-pct">85%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-percent="70" style="--pct:70%">
+            <div class="skill-bar-top"><span>Balsamiq &amp; Usability Testing</span><span class="skill-pct">70%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-reveal>
+          <h3 class="skill-cat-title">Core CS &amp; Tools</h3>
+          <div class="skill-bar" data-percent="84" style="--pct:84%">
+            <div class="skill-bar-top"><span>Data Structures &amp; Algorithms</span><span class="skill-pct">84%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-percent="76" style="--pct:76%">
+            <div class="skill-bar-top"><span>Database Design (SQL)</span><span class="skill-pct">76%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-percent="72" style="--pct:72%">
+            <div class="skill-bar-top"><span>Git &amp; GitHub</span><span class="skill-pct">72%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tag-groups">
+        <div class="tag-group" data-reveal>
+          <h4>Design &amp; Dev Tools</h4>
+          <div class="skill-tags">
+            <span>HCI</span><span>Software Requirements Engineering</span><span>Draw.io</span><span>Miro</span>
+            <span>Canva</span><span>VS Code</span><span>NetBeans</span><span>MySQL</span><span>Android Emulator</span><span>Dev C++</span><span>Mobile Application Development</span>
+          </div>
+        </div>
+        <div class="tag-group" data-reveal>
+          <h4>Cybersecurity &amp; Information Security</h4>
+          <div class="skill-tags">
+            <span>Cybersecurity</span><span>Information Security</span><span>Cyber Crime Awareness</span>
+            <span>Cyber Threat Intelligence</span><span>Security Operations</span><span>Risk Assessment</span><span>Digital Security</span>
+          </div>
+        </div>
+        <div class="tag-group" data-reveal>
+          <h4>Professional &amp; Teaching Skills</h4>
+          <div class="skill-tags">
+            <span>Project Management</span><span>Problem Solving</span><span>Critical Thinking</span><span>Teamwork</span>
+            <span>Communication</span><span>Time Management</span><span>Adaptability</span><span>Cross-Cultural Collaboration</span>
+            <span>Teaching &amp; Mentoring</span><span>Tajweed</span><span>Islamic Studies</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="section-inner">
+      <p class="section-eyebrow" data-reveal>04 — Experience</p>
+      <h2 class="section-title" data-reveal>Currently running eight tracks at once.</h2>
+      <p class="section-lede" data-reveal>Every internship below is active in parallel with my degree — each one sharpening a different edge of the same skill set.</p>
+
+      <div class="timeline" id="timeline">
+
+        <article class="tl-item" data-reveal>
+          <div class="tl-node"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3>C++ Developer Intern</h3>
+              <span class="tl-date">Jul 2026 — Present</span>
+            </div>
+            <p class="tl-org">Arch Technologies</p>
+            <p class="tl-desc">Building C++ console applications with clean logic, colored terminal output and structured data handling.</p>
+            <p class="tl-project"><strong>Key project:</strong> Dice Rolling Game &amp; To-Do List — a colored console dice game with roll statistics and history, plus a task manager.</p>
+            <div class="tl-tags"><span>C++</span><span>Dev-C++</span><span>OOP</span></div>
+          </div>
+        </article>
+
+        <article class="tl-item" data-reveal>
+          <div class="tl-node"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3>Front End Development Intern</h3>
+              <span class="tl-date">Jul 2026 — Present</span>
+            </div>
+            <p class="tl-org">Auspify Technologies</p>
+            <p class="tl-desc">Designing and building responsive, mobile-first interfaces — a landing page, an animated portfolio, a to-do app with local storage, and a weather dashboard on a live REST API.</p>
+            <div class="tl-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>REST APIs</span></div>
+          </div>
+        </article>
+
+        <article class="tl-item" data-reveal>
+          <div class="tl-node"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3>Mobile Application Development Intern</h3>
+              <span class="tl-date">Jul 2026 — Present</span>
+            </div>
+            <p class="tl-org">Arch Technologies</p>
+            <p class="tl-desc">Building and prototyping mobile app interfaces and features alongside the core team, translating designs into functional, user-ready screens.</p>
+            <div class="tl-tags"><span>Mobile Development</span><span>UI Implementation</span></div>
+          </div>
+        </article>
+
+        <article class="tl-item" data-reveal>
+          <div class="tl-node"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3>UI/UX Design Intern</h3>
+              <span class="tl-date">Jun 2026 — Present</span>
+            </div>
+            <p class="tl-org">SafeX Solutions</p>
+            <p class="tl-desc">Redesigning company platforms end to end — a full website redesign, a Student Portal, and an Internship Management Portal, backed by user research.</p>
+            <div class="tl-tags"><span>Figma</span><span>Miro</span><span>Draw.io</span></div>
+          </div>
+        </article>
+
+        <article class="tl-item" data-reveal>
+          <div class="tl-node"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3>UI/UX Designer Intern</h3>
+              <span class="tl-date">Jun 2026 — Present</span>
+            </div>
+            <p class="tl-org">DevelopersHub Corporation</p>
+            <p class="tl-desc">Designing the Tajweed-ul-Makharij mobile learning app — interactive Quranic pronunciation lessons, progress tracking, quizzes and audio guidance.</p>
+            <div class="tl-tags"><span>Figma</span><span>User Personas</span></div>
+          </div>
+        </article>
+
+        <article class="tl-item" data-reveal>
+          <div class="tl-node"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3>Java Programming &amp; UI/UX Design Intern</h3>
+              <span class="tl-date">Jul 2026</span>
+            </div>
+            <p class="tl-org">CodeAlpha</p>
+            <p class="tl-desc">Built an AI Study Assistant Chatbot, a Hotel Reservation System and a Student Management System in Java, plus the Cartify shopping app in Figma.</p>
+            <div class="tl-tags"><span>Java</span><span>Figma</span><span>MySQL</span></div>
+          </div>
+        </article>
+
+        <article class="tl-item" data-reveal>
+          <div class="tl-node"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3>Frontend Development &amp; UI/UX Design Intern</h3>
+              <span class="tl-date">Jul 2026</span>
+            </div>
+            <p class="tl-org">Decode Labs</p>
+            <p class="tl-desc">Built FoodVerse, a responsive restaurant ordering site, and designed the full Cartify mobile shopping experience from onboarding to order tracking.</p>
+            <div class="tl-tags"><span>JavaScript</span><span>Figma</span></div>
+          </div>
+        </article>
+
+        <article class="tl-item tl-item-highlight" data-reveal>
+          <div class="tl-node tl-node-alt"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3>Online Quran Tutor</h3>
+              <span class="tl-date">Feb 2020 — Present</span>
+            </div>
+            <p class="tl-org">International Students · UK, USA, Canada, Australia</p>
+            <p class="tl-desc">Delivering one-on-one Tajweed lessons to 10+ students at once across time zones — building individual learning plans, tracking progress and running the entire schedule independently. The original source of every soft skill listed above.</p>
+            <div class="tl-tags"><span>Teaching</span><span>Leadership</span><span>Cross-cultural Communication</span></div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section-alt" id="projects">
+    <div class="section-inner">
+      <p class="section-eyebrow" data-reveal>05 — Projects</p>
+      <h2 class="section-title" data-reveal>Selected work.</h2>
+      <p class="section-lede" data-reveal>Sixteen projects across design and development. Filter by discipline to see how the same problem gets solved differently on each side.</p>
+
+      <div class="filter-bar" id="filterBar" data-reveal>
+        <button class="filter-btn active" data-filter="all">All work</button>
+        <button class="filter-btn" data-filter="UI/UX Design">UI/UX Design</button>
+        <button class="filter-btn" data-filter="Frontend Development">Frontend</button>
+        <button class="filter-btn" data-filter="Software Development">Software</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+        <!-- injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- REAL PROJECTS -->
+  <section class="section" id="real-projects">
+    <div class="section-inner">
+      <p class="section-eyebrow" data-reveal>Client Work</p>
+      <h2 class="section-title" data-reveal>Real Projects.</h2>
+      <p class="section-lede" data-reveal>Real-world websites and digital solutions designed for businesses.</p>
+
+      <div class="rp-grid">
+        <article class="rp-card" data-reveal>
+          <div class="rp-thumb">
+            <img src="assets/real-projects/fresh-n-crave.jpg" alt="Fresh N Crave Bakers & Sweets website preview" loading="lazy">
+          </div>
+          <div class="rp-body">
+            <div class="pc-top">
+              <span class="pc-cat">Real Business Website</span>
+              <span class="pc-arrow" aria-hidden="true">
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </div>
+            <h3 class="pc-title">Fresh N Crave Bakers &amp; Sweets</h3>
+            <p class="pc-desc">A modern and professional bakery website designed for Fresh N Crave Bakers &amp; Sweets. The website showcases bakery products, cakes, desserts, and business information with an attractive and premium user interface.</p>
+
+            <ul class="rp-features">
+              <li>Modern responsive website</li>
+              <li>Professional bakery design</li>
+              <li>Product showcase</li>
+              <li>Attractive UI/UX</li>
+              <li>Mobile-friendly layout</li>
+              <li>Business-focused design</li>
+            </ul>
+
+            <div class="pc-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive Design</span>
+            </div>
+
+            <a href="https://peppy-cactus-e94143.netlify.app" class="btn btn-primary rp-visit" target="_blank" rel="noopener">
+              Visit Website
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="rp-card" data-reveal style="transition-delay:80ms">
+          <div class="rp-thumb">
+            <img src="assets/real-projects/arham-dental-care.jpg" alt="Arham Dental Care website preview" loading="lazy">
+          </div>
+          <div class="rp-body">
+            <div class="pc-top">
+              <span class="pc-cat">Real Business Website</span>
+              <span class="pc-arrow" aria-hidden="true">
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </div>
+            <h3 class="pc-title">Arham Dental Care</h3>
+            <p class="pc-desc">A modern and professional healthcare website designed for Arham Dental Care. The website presents dental services, clinic information, and provides users with an easy and professional experience.</p>
+
+            <ul class="rp-features">
+              <li>Modern healthcare website</li>
+              <li>Professional UI/UX</li>
+              <li>Dental services section</li>
+              <li>Responsive design</li>
+              <li>Trustworthy interface</li>
+              <li>Mobile-friendly layout</li>
+            </ul>
+
+            <div class="pc-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive Design</span>
+            </div>
+
+            <a href="https://sage-marzipan-57d3b2.netlify.app" class="btn btn-primary rp-visit" target="_blank" rel="noopener">
+              Visit Website
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section class="section" id="certificates">
+    <div class="section-inner">
+      <p class="section-eyebrow" data-reveal>06 — Certificates</p>
+      <h2 class="section-title" data-reveal>Training &amp; certifications.</h2>
+      <p class="section-lede" data-reveal>32 certificates and recommendation letters from courses, simulations and internships I've completed — click any card to view the full document.</p>
+
+      <div class="certs-grid" id="certsGrid">
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/safex-solutions-uiux-internship.jpg" data-title="UI/UX Designer — Skills Development Internship" data-issuer="SafeX Solutions">
+          <span class="cert-thumb"><img src="assets/certs/safex-solutions-uiux-internship.jpg" alt="SafeX Solutions UI/UX Designer internship certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>UI/UX Designer — Skills Development Internship</h3><p>SafeX Solutions</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/decodelabs-uiux-internship.jpg" data-title="Virtual Internship — UI/UX Design" data-issuer="DecodeLabs">
+          <span class="cert-thumb"><img src="assets/certs/decodelabs-uiux-internship.jpg" alt="DecodeLabs virtual internship UI/UX design certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>Virtual Internship — UI/UX Design</h3><p>DecodeLabs</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/codealpha-java-certificate.jpg" data-title="Virtual Internship — Java Programming" data-issuer="CodeAlpha">
+          <span class="cert-thumb"><img src="assets/certs/codealpha-java-certificate.jpg" alt="CodeAlpha Java Programming internship certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>Virtual Internship — Java Programming</h3><p>CodeAlpha</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/codealpha-uiux-certificate.jpg" data-title="Virtual Internship — UI/UX Design" data-issuer="CodeAlpha">
+          <span class="cert-thumb"><img src="assets/certs/codealpha-uiux-certificate.jpg" alt="CodeAlpha UI/UX Design internship certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>Virtual Internship — UI/UX Design</h3><p>CodeAlpha</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/codealpha-java-lor.jpg" data-title="Letter of Recommendation — Java Programming" data-issuer="CodeAlpha">
+          <span class="cert-thumb"><img src="assets/certs/codealpha-java-lor.jpg" alt="CodeAlpha Java Programming letter of recommendation" loading="lazy"><span class="cert-zoom">View letter</span></span>
+          <span class="cert-info"><h3>Letter of Recommendation — Java Programming</h3><p>CodeAlpha</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/codealpha-uiux-lor.jpg" data-title="Letter of Recommendation — UI/UX Design" data-issuer="CodeAlpha">
+          <span class="cert-thumb"><img src="assets/certs/codealpha-uiux-lor.jpg" alt="CodeAlpha UI/UX Design letter of recommendation" loading="lazy"><span class="cert-zoom">View letter</span></span>
+          <span class="cert-info"><h3>Letter of Recommendation — UI/UX Design</h3><p>CodeAlpha</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/hp-life-ai-business-professionals.jpg" data-title="AI for Business Professionals" data-issuer="HP LIFE · HP Foundation">
+          <span class="cert-thumb"><img src="assets/certs/hp-life-ai-business-professionals.jpg" alt="HP LIFE AI for Business Professionals certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>AI for Business Professionals</h3><p>HP LIFE · HP Foundation</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/dubai-1-million-prompters.jpg" data-title="One Million Prompters Initiative" data-issuer="Dubai Future Foundation">
+          <span class="cert-thumb"><img src="assets/certs/dubai-1-million-prompters.jpg" alt="Dubai Future Foundation One Million Prompters certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>One Million Prompters Initiative</h3><p>Dubai Future Foundation</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/anthropic-claude-101.jpg" data-title="Claude 101" data-issuer="Anthropic Academy">
+          <span class="cert-thumb"><img src="assets/certs/anthropic-claude-101.jpg" alt="Anthropic Academy Claude 101 certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>Claude 101</h3><p>Anthropic Academy</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/anthropic-claude-cowork.jpg" data-title="Introduction to Claude Cowork" data-issuer="Anthropic Academy">
+          <span class="cert-thumb"><img src="assets/certs/anthropic-claude-cowork.jpg" alt="Anthropic Academy Introduction to Claude Cowork certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>Introduction to Claude Cowork</h3><p>Anthropic Academy</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/anthropic-ai-fluency-framework.jpg" data-title="AI Fluency: Framework & Foundations" data-issuer="Anthropic Academy">
+          <span class="cert-thumb"><img src="assets/certs/anthropic-ai-fluency-framework.jpg" alt="Anthropic Academy AI Fluency Framework and Foundations certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>AI Fluency: Framework &amp; Foundations</h3><p>Anthropic Academy</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/anthropic-ai-fluency-students.jpg" data-title="AI Fluency for Students" data-issuer="Anthropic Academy">
+          <span class="cert-thumb"><img src="assets/certs/anthropic-ai-fluency-students.jpg" alt="Anthropic Academy AI Fluency for Students certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>AI Fluency for Students</h3><p>Anthropic Academy</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/anthropic-ai-fluency-small-business.jpg" data-title="AI Fluency for Small Businesses" data-issuer="Anthropic Academy · PayPal">
+          <span class="cert-thumb"><img src="assets/certs/anthropic-ai-fluency-small-business.jpg" alt="Anthropic Academy AI Fluency for Small Businesses certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>AI Fluency for Small Businesses</h3><p>Anthropic Academy · PayPal</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/anthropic-claude-vertex-ai.jpg" data-title="Claude with Google Vertex AI" data-issuer="Anthropic Academy">
+          <span class="cert-thumb"><img src="assets/certs/anthropic-claude-vertex-ai.jpg" alt="Anthropic Academy Claude with Google Vertex AI certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>Claude with Google Vertex AI</h3><p>Anthropic Academy</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/deloitte-cyber-job-simulation.jpg" data-title="Cyber Job Simulation" data-issuer="Deloitte Australia">
+          <span class="cert-thumb"><img src="assets/certs/deloitte-cyber-job-simulation.jpg" alt="Deloitte Australia Cyber Job Simulation certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>Cyber Job Simulation</h3><p>Deloitte Australia</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/google-cloud-trust-security.jpg" data-title="Trust and Security with Google Cloud" data-issuer="Google Cloud · via Simplilearn SkillUp">
+          <span class="cert-thumb"><img src="assets/certs/google-cloud-trust-security.jpg" alt="Trust and Security with Google Cloud certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>Trust &amp; Security with Google Cloud</h3><p>Google Cloud · Simplilearn</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/figma-bootcamp-fluxxion.jpg" data-title="Figma Bootcamp & Mega Project" data-issuer="Fluxxion.dev">
+          <span class="cert-thumb"><img src="assets/certs/figma-bootcamp-fluxxion.jpg" alt="Figma Bootcamp and Mega Project certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>Figma Bootcamp &amp; Mega Project</h3><p>Fluxxion.dev · 7-Day Bootcamp</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/developershub-uiux-internship.jpg" data-title="UI/UX Designing Internship — Certificate of Achievement" data-issuer="DevelopersHub Corporation">
+          <span class="cert-thumb"><img src="assets/certs/developershub-uiux-internship.jpg" alt="DevelopersHub Corporation UI/UX internship certificate of achievement" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>UI/UX Internship — Certificate of Achievement</h3><p>DevelopersHub Corporation</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/ieee-cis-summer-school.jpg" data-title="IEEE CIS Summer School '25 — Participation" data-issuer="IEEE Riphah University FC Student Branch">
+          <span class="cert-thumb"><img src="assets/certs/ieee-cis-summer-school.jpg" alt="IEEE CIS Summer School 25 participation certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>IEEE CIS Summer School '25</h3><p>IEEE Riphah University Chapter</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/critical-thinking-cyber-security.jpg" data-title="Critical Thinking of Cyber Security" data-issuer="The Passionate-Pak Organization">
+          <span class="cert-thumb"><img src="assets/certs/critical-thinking-cyber-security.jpg" alt="Critical Thinking of Cyber Security certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>Critical Thinking of Cyber Security</h3><p>The Passionate-Pak</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/cyber-crime-awareness.jpg" data-title="Cyber Crime Awareness" data-issuer="The Passionate-Pak Organization">
+          <span class="cert-thumb"><img src="assets/certs/cyber-crime-awareness.jpg" alt="Cyber Crime Awareness certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>Cyber Crime Awareness</h3><p>The Passionate-Pak</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/character-building-personality.jpg" data-title="Character Building & Personality Development" data-issuer="The Passionate-Pak Organization">
+          <span class="cert-thumb"><img src="assets/certs/character-building-personality.jpg" alt="Character Building and Personality Development certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>Character Building &amp; Personality Development</h3><p>The Passionate-Pak</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/freedom-of-speech-vs-hate-speech.jpg" data-title="Freedom of Speech vs. Hate Speech: Legal Boundaries" data-issuer="The Passionate-Pak Organization">
+          <span class="cert-thumb"><img src="assets/certs/freedom-of-speech-vs-hate-speech.jpg" alt="Freedom of Speech vs Hate Speech certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>Freedom of Speech vs. Hate Speech</h3><p>The Passionate-Pak</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/ai-awareness.jpg" data-title="Artificial Intelligence Awareness" data-issuer="The Passionate-Pak Organization">
+          <span class="cert-thumb"><img src="assets/certs/ai-awareness.jpg" alt="Artificial Intelligence Awareness certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>AI Awareness</h3><p>The Passionate-Pak</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/datacraft-youth-future.jpg" data-title="DataCraft — Designing Youth Future" data-issuer="The Passionate-Pak Organization">
+          <span class="cert-thumb"><img src="assets/certs/datacraft-youth-future.jpg" alt="DataCraft Designing Youth Future certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>DataCraft — Designing Youth Future</h3><p>The Passionate-Pak</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/safeguarding-women-cyberbullying.jpg" data-title="Safeguarding Women: Digital Harassment & Cyberbullying" data-issuer="The Passionate-Pak Organization">
+          <span class="cert-thumb"><img src="assets/certs/safeguarding-women-cyberbullying.jpg" alt="Safeguarding Women Cyberbullying awareness certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>Safeguarding Women &amp; Cyberbullying Awareness</h3><p>The Passionate-Pak</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/amazon-virtual-assistant.jpg" data-title="Build a Successful Career as an Amazon Virtual Assistant" data-issuer="The Passionate-Pak Organization">
+          <span class="cert-thumb"><img src="assets/certs/amazon-virtual-assistant.jpg" alt="Amazon Virtual Assistant Career certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>Amazon Virtual Assistant Career</h3><p>The Passionate-Pak</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/social-media-monetization.jpg" data-title="Social Media Monetization Roadmap" data-issuer="The Passionate-Pak Organization">
+          <span class="cert-thumb"><img src="assets/certs/social-media-monetization.jpg" alt="Social Media Monetization Roadmap certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>Social Media Monetization Roadmap</h3><p>The Passionate-Pak</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/mental-health-stress-management.jpg" data-title="Mental Health & Stress Management" data-issuer="The Passionate-Pak Organization">
+          <span class="cert-thumb"><img src="assets/certs/mental-health-stress-management.jpg" alt="Mental Health and Stress Management certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>Mental Health &amp; Stress Management</h3><p>The Passionate-Pak</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/freelancing-career-building.jpg" data-title="Building a Career in Freelancing" data-issuer="The Passionate-Pak Organization">
+          <span class="cert-thumb"><img src="assets/certs/freelancing-career-building.jpg" alt="Freelancing Career Building certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>Freelancing Career Building</h3><p>The Passionate-Pak</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/certificate-of-appreciation-pledge.jpg" data-title="Certificate of Appreciation — Pledge & Commitment" data-issuer="National Initiative">
+          <span class="cert-thumb"><img src="assets/certs/certificate-of-appreciation-pledge.jpg" alt="Certificate of Appreciation Pledge and Commitment" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>Certificate of Appreciation</h3><p>Pledge &amp; Commitment Initiative</p></span>
+        </button>
+
+        <button class="cert-card cert-card-img" data-reveal data-img="assets/certs/hifz-ul-quran.png" data-title="Hifz-ul-Quran Certificate" data-issuer="Tanzeem-ul-Madaris Ahl-e-Sunnat Pakistan">
+          <span class="cert-thumb"><img src="assets/certs/hifz-ul-quran.png" alt="Hifz-ul-Quran certificate" loading="lazy"><span class="cert-zoom">View certificate</span></span>
+          <span class="cert-info"><h3>Hifz-ul-Quran</h3><p>Complete Memorization of the Holy Quran</p></span>
+        </button>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+    <figure class="lightbox-content">
+      <img id="lightboxImg" src="" alt="">
+      <figcaption>
+        <strong id="lightboxTitle"></strong>
+        <span id="lightboxIssuer"></span>
+        <span id="lightboxCounter" class="lightbox-counter"></span>
+      </figcaption>
+    </figure>
+  </div>
+
+  <!-- VIDEO LIGHTBOX -->
+  <div class="lightbox" id="videoLightbox" aria-hidden="true">
+    <button class="lightbox-close" id="videoLightboxClose" aria-label="Close">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+    <figure class="lightbox-content lightbox-content-video">
+      <video id="lightboxVideo" src="" controls playsinline></video>
+      <figcaption>
+        <strong id="videoLightboxTitle"></strong>
+      </figcaption>
+    </figure>
+  </div>
+
+  <!-- RECOGNITION -->
+  <section class="section section-alt" id="recognition">
+    <div class="section-inner recognition-grid">
+      <div>
+        <p class="section-eyebrow" data-reveal>07 — Recognition</p>
+        <h2 class="section-title" data-reveal>Achievements &amp; honors.</h2>
+        <div class="achievements-list">
+          <div class="achievement-card" data-reveal>
+            <div class="achievement-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0V4Z"/><path d="M7 6H4a2 2 0 0 0 2 4M17 6h3a2 2 0 0 1-2 4"/></svg>
+            </div>
+            <div>
+              <h3>2nd Position — Presentation Skills Competition</h3>
+              <p>APS College · Certificate of Appreciation</p>
+            </div>
+          </div>
+          <button class="achievement-card cert-card-img" data-img="assets/certs/surah-al-baqarah-recognition.jpg" data-title="Certificate of Recognition — Surah Al-Baqarah Completion" data-issuer="Riphah International University · Tarbiyah Resource Center" data-reveal>
+            <span class="achievement-thumb"><img src="assets/certs/surah-al-baqarah-recognition.jpg" alt="Certificate of Recognition for Surah Al-Baqarah completion" loading="lazy"></span>
+            <div>
+              <h3>Certificate of Recognition — Surah Al-Baqarah</h3>
+              <p>Riphah International University · click to view</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <div>
+        <p class="section-eyebrow" data-reveal>Languages</p>
+        <h2 class="section-title" data-reveal>How I communicate.</h2>
+        <div class="skill-card lang-card" data-reveal>
+          <div class="skill-bar" data-percent="98" style="--pct:98%">
+            <div class="skill-bar-top"><span>Urdu</span><span class="skill-pct">Native / Bilingual</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-percent="90" style="--pct:90%">
+            <div class="skill-bar-top"><span>English</span><span class="skill-pct">Professional Working</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-percent="50" style="--pct:50%">
+            <div class="skill-bar-top"><span>Arabic</span><span class="skill-pct">Limited (Quranic Reading)</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-contact" id="contact">
+    <div class="section-inner contact-grid">
+      <div class="contact-copy" data-reveal>
+        <p class="section-eyebrow">08 — Contact</p>
+        <h2 class="section-title">Let's build something worth shipping.</h2>
+        <p class="section-lede">Open to Software Engineering, Frontend Development and UI/UX internship or entry-level roles. Reach out directly, or use the form.</p>
+
+        <a href="https://www.linkedin.com/in/alishba-umar-8914bb373" target="_blank" rel="noopener" class="linkedin-cta">
+          <svg width="20" height="20" viewBox="0 0 448 512" fill="currentColor"><path d="M100.28 448H7.4V148.9h92.88zm-46.44-338C24.09 110 0 85.91 0 56.24a53.79 53.79 0 1 1 107.58 0c0 29.67-24.13 53.76-53.74 53.76zM447.9 448h-92.68V302.4c0-34.7-.7-79.34-48.29-79.34-48.29 0-55.7 37.21-55.7 75.68V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.28 61.9 111.28 142.3z"/></svg>
+          <span>
+            <strong>Connect on LinkedIn</strong>
+            <em>linkedin.com/in/alishba-umar-8914bb373</em>
+          </span>
+          <svg class="linkedin-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label">Email</span>
+            <a href="mailto:hafizaalishba.umar@gmail.com">hafizaalishba.umar@gmail.com</a>
+          </li>
+          <li>
+            <span class="contact-label">Phone</span>
+            <a href="tel:+923109554642">+92 310 9554642</a>
+          </li>
+          <li>
+            <span class="contact-label">Location</span>
+            <span>Rawalpindi, Punjab, Pakistan</span>
+          </li>
+        </ul>
+
+        <div class="social-row">
+          <a href="https://github.com/alishbahumar" target="_blank" rel="noopener" aria-label="GitHub" class="social-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.87-1.36-3.87-1.36-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .3.2.66.79.55A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/alishba-umar-8914bb373" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-btn social-btn-linkedin">
+            <svg width="18" height="18" viewBox="0 0 448 512" fill="currentColor"><path d="M100.28 448H7.4V148.9h92.88zm-46.44-338C24.09 110 0 85.91 0 56.24a53.79 53.79 0 1 1 107.58 0c0 29.67-24.13 53.76-53.74 53.76zM447.9 448h-92.68V302.4c0-34.7-.7-79.34-48.29-79.34-48.29 0-55.7 37.21-55.7 75.68V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.28 61.9 111.28 142.3z"/></svg>
+          </a>
+          <a href="mailto:hafizaalishba.umar@gmail.com" aria-label="Email" class="social-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 6 10 7 10-7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm" action="https://formsubmit.co/hafizaalishba.umar@gmail.com" method="POST" data-reveal novalidate>
+        <input type="hidden" name="_subject" value="New message from your portfolio site">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+        <div class="form-row">
+          <label for="fname">Name</label>
+          <input type="text" id="fname" name="name" placeholder="Your full name" autocomplete="name" required>
+          <span class="form-error" id="err-name"></span>
+        </div>
+        <div class="form-row">
+          <label for="femail">Email</label>
+          <input type="email" id="femail" name="email" placeholder="you@company.com" autocomplete="email" required>
+          <span class="form-error" id="err-email"></span>
+        </div>
+        <div class="form-row">
+          <label for="fsubject">Subject</label>
+          <input type="text" id="fsubject" name="subject" placeholder="What's this about?" required>
+          <span class="form-error" id="err-subject"></span>
+        </div>
+        <div class="form-row">
+          <label for="fmessage">Message</label>
+          <textarea id="fmessage" name="message" rows="5" placeholder="Tell me a little about the role or project..." required></textarea>
+          <span class="form-error" id="err-message"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+          <span class="btn-label">Send message</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        <p class="form-hint">Sent straight to my inbox — no backend, no spam.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="logo-mark">AU</span>
+      <p>Software Engineering student building at the edge of code and design — Rawalpindi, Pakistan.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h4>Site</h4>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#real-projects">Real Projects</a>
+        <a href="#certificates">Certificates</a>
+      </div>
+      <div class="footer-col">
+        <h4>Elsewhere</h4>
+        <a href="https://github.com/alishbahumar" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/alishba-umar-8914bb373" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:hafizaalishba.umar@gmail.com">Email</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Alishba Umar. Designed &amp; built by hand.</p>
+  </div>
+</footer>
+
+<button class="scroll-top" id="scrollTop" aria-label="Scroll back to top">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
