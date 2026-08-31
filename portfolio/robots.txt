@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sensational-fenglisu-16a12c.netlify.app/sitemap.xml
